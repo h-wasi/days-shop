@@ -39,7 +39,7 @@ const config: Config = {
       },
       fontFamily: {
         inter: ["var(--font-inter)"],
-        spaceGrotesk: ["var(--font-spaceGrotesk)"],
+        poppins: ["var(--font-poppins)"],
       },
       boxShadow: {
         "light-100":
