@@ -7,12 +7,12 @@ function Navbar() {
   return (
     <div className="border-b-light-200 flex justify-around border py-4">
       <Link href={"/"} className="logo h1-bold max-md:px-4">
-        <span className="text-secondary-500">Day</span>
+        <span className="text-secondary-500">Days</span>
         <span className="">Shop</span>
       </Link>
       <div
         className={
-          "max-lg:text-base max-lg:gap-4 flex justify-between gap-8 pt-2 text-lg"
+          "flex justify-between gap-8 pt-2 text-lg max-lg:gap-4 max-lg:text-base"
         }
       >
         <Link href={"/"}>Home</Link>
