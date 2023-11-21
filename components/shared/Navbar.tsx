@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <div className="flex-between">
       <div className="logo h1-bold">DaysShop</div>
-      <div className={"flex-between"}>
+      <div className={"flex-between justify-between"}>
         <Link href={"/"}>Home</Link>
         <Link href={"/contact"}>Contact</Link>
         <Link href={"/about"}>About</Link>
