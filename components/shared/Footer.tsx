@@ -130,13 +130,13 @@ function Footer() {
               className="mx-2"
             ></Image>
             by
-            <div className="ml-2 flex gap-4 text-emerald-300">
+            <span className="ml-2 flex gap-4 text-emerald-300">
               <Link href={"https://github.com/h-wasi"}>1: Wasi</Link>
               <Link href={"https://github.com/Mohsin-mw"}>2: Mohsin</Link>
               <Link href={"https://github.com/Ishtiaq-Ahmed101"}>
                 3: Ishtiaq
               </Link>
-            </div>
+            </span>
           </p>
         </div>
       </div>
