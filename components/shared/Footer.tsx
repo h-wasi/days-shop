@@ -119,7 +119,8 @@ function Footer() {
             </div>
           </div>
         </section>
-        <p className="mt-16 flex justify-center">
+        <div className="flex justify-center">
+        <p className="mt-16 flex justify-center bg-slate-900/70 w-max px-6 rounded-3xl border border-emerald-200 py-4">
           Made with
           <Image
             src={"/assets/love.svg"}
@@ -135,6 +136,7 @@ function Footer() {
             <Link href={"https://github.com/Ishtiaq-Ahmed101"}>3: Ishtiaq</Link>
           </div>
         </p>
+        </div>
       </div>
     </>
   );
