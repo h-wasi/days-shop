@@ -2,7 +2,7 @@ import React from 'react'
 
 function page() {
   return (
-    <div>Contact</div>
+    <div className="grid-main min-h-screen">Contact</div>
   )
 }
 

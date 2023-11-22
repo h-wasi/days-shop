@@ -3,6 +3,7 @@ import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import React from "react";
 import Navbar from "@/components/shared/Navbar";
+import Footer from "@/components/shared/Footer";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -39,9 +40,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${poppins.variable}`}>
+      <body
+        className={`${inter.variable} ${poppins.variable} grid-container custom-scrollbar`}
+      >
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 function Navbar() {
   return (
-    <div className="border-b-light-200 flex justify-around border py-4">
+    <div className="border-b-light-200 grid-nav flex justify-around border py-4">
       <Link href={"/"} className="logo h1-bold max-md:px-4">
         <span className="text-secondary-500">Days</span>
         <span className="">Shop</span>
@@ -27,7 +27,7 @@ function Navbar() {
             placeholder="Search"
             // value={""}
             // onChange={() => {}}
-            className="border-0 bg-red-500 outline-none ring-0"
+            className="w-full border-0 bg-transparent outline-none ring-0 focus-within:focus-visible:focus:border-none focus-within:focus-visible:focus:outline-none focus-within:focus-visible:focus:ring-0"
           />
           <Image
             src={"/assets/search.svg"}

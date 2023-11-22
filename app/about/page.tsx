@@ -1,7 +1,7 @@
 import React from "react";
 
 function page() {
-  return <div>About</div>;
+  return <div className="grid-main min-h-screen">About</div>;
 }
 
 export default page;

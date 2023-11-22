@@ -161,3 +161,38 @@
     );
   }
 }
+.grid-container {
+  display: grid;
+  grid-template-rows: 76px 1fr 27.5rem;
+  grid-template-areas:
+    "Navbar"
+    "main"
+    "Footer";
+}
+.grid-main {
+  grid-area: main;
+}
+.grid-footer {
+  grid-area: Footer;
+}
+.grid-nav {
+  grid-area: Navbar;
+}
+.google {
+  grid-area: google;
+}
+.apple {
+  grid-area: apple;
+}
+.qr {
+  grid-area: qr;
+  align-self: center;
+}
+.grid-apps {
+  grid-template-columns: 6rem 6.5rem;
+  grid-template-rows: 3rem 3rem;
+  grid-template-areas:
+    "qr apple"
+    "qr google";
+  align-items: center;
+}
