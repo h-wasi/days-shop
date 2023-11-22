@@ -46,7 +46,7 @@ function Footer() {
             <p>Wishlist</p>
             <p>shop</p>
           </div>
-          <div>
+          <div className="flex flex-col gap-1.5">
             <h1 className="h3-semibold">Quick Link</h1>
             <p>Privacy Policy</p>
             <p>Terms of Use</p>
@@ -120,22 +120,24 @@ function Footer() {
           </div>
         </section>
         <div className="flex justify-center">
-        <p className="mt-16 flex justify-center bg-slate-900/70 w-max px-6 rounded-3xl border border-emerald-200 py-4">
-          Made with
-          <Image
-            src={"/assets/love.svg"}
-            width={25}
-            height={25}
-            alt="love"
-            className="mx-2"
-          ></Image>
-          by
-          <div className="ml-2 flex gap-4 text-emerald-300">
-            <Link href={"https://github.com/h-wasi"}>1: Wasi</Link>
-            <Link href={"https://github.com/Mohsin-mw"}>2: Mohsin</Link>
-            <Link href={"https://github.com/Ishtiaq-Ahmed101"}>3: Ishtiaq</Link>
-          </div>
-        </p>
+          <p className="mt-16 flex w-max justify-center rounded-3xl border border-emerald-200 bg-slate-900/70 px-6 py-4">
+            Made with
+            <Image
+              src={"/assets/love.svg"}
+              width={25}
+              height={25}
+              alt="love"
+              className="mx-2"
+            ></Image>
+            by
+            <div className="ml-2 flex gap-4 text-emerald-300">
+              <Link href={"https://github.com/h-wasi"}>1: Wasi</Link>
+              <Link href={"https://github.com/Mohsin-mw"}>2: Mohsin</Link>
+              <Link href={"https://github.com/Ishtiaq-Ahmed101"}>
+                3: Ishtiaq
+              </Link>
+            </div>
+          </p>
         </div>
       </div>
     </>
