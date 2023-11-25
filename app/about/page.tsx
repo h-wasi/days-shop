@@ -22,7 +22,7 @@ function page() {
             ranging from consumer.
           </p>
         </div>
-        <div className="relative right-[-6.3%] h-[38rem] w-[50vw] bg-gradient-to-r from-purple-500 to-pink-500 bg-cover"></div>
+        <div className="relative right-[-6.3%] h-[38rem] w-[50vw] bg-side bg-cover"></div>
       </div>
       <section className="flex justify-around">
         <div className="flex justify-around gap-20">
