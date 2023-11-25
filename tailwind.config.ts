@@ -51,7 +51,10 @@ const config: Config = {
       },
       backgroundImage: {
         "auth-dark": "url('/assets/images/auth-dark.png')",
-        "auth-light": "url('/assets/images/auth-light.png')",
+        side: "url('/assets/Side Image.png')",
+        frame1: "url('/assets/Frame 874.png')",
+        frame2: "url('/assets/Frame 876.png')",
+        frame3: "url('/assets/Frame 887.png')",
       },
       screens: {
         xs: "420px",
