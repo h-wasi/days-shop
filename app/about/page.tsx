@@ -37,7 +37,7 @@ function page() {
               ></Image>
             </div>
             <h1 className="h1-bold">10.5k</h1>
-            <p>Sallers active our site</p>
+            <p>Sellers active our site</p>
           </div>
           <div className="relative z-[1] flex flex-col items-center justify-between gap-2 border border-dark-200 bg-secondary-400 px-[3.1rem] py-[1.8rem] text-light-800">
             <div className="flex-center before:contents[''] relative  h-12 w-12 rounded-full  bg-light-850 before:absolute before:z-[-1] before:h-16 before:w-16 before:rounded-full before:bg-secondary-300">
@@ -87,13 +87,13 @@ function page() {
             img={"bg-frame1"}
           />
           <AdminPic
-            name={"Tom Cruise"}
-            occupation={"Founder & Chairman"}
+            name={"Emma Watson"}
+            occupation={"Managing Director"}
             img={"bg-frame3"}
           />
           <AdminPic
-            name={"Tom Cruise"}
-            occupation={"Founder & Chairman"}
+            name={"Will Smith"}
+            occupation={"Product Designer"}
             img={"bg-frame2"}
           />
         </div>

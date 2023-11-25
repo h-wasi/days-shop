@@ -91,7 +91,7 @@ function Footer() {
               </Link>
               <Link href={"/"}>
                 <Image
-                  src={"/assets/icons8-twitter.svg"}
+                  src={"/assets/twitter.svg"}
                   width={24}
                   height={24}
                   alt="twitter"
@@ -100,7 +100,7 @@ function Footer() {
               </Link>
               <Link href={"/"}>
                 <Image
-                  src={"/assets/linkedin-svgrepo-com.svg"}
+                  src={"/assets/linkedin.svg"}
                   width={25}
                   height={25}
                   alt="linkedin"
@@ -109,7 +109,7 @@ function Footer() {
               </Link>
               <Link href={"/"}>
                 <Image
-                  src={"/assets/insta-svgrepo-com.svg"}
+                  src={"/assets/insta.svg"}
                   width={25}
                   height={25}
                   alt="insta"
