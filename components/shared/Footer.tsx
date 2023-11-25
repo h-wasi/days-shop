@@ -17,7 +17,7 @@ function Footer() {
             <p>Get off 10&#37; your first order</p>
             <div className="bg-transparen flex w-[13.5rem] rounded-md border border-light-500 px-4">
               <Input
-                className="border-0 bg-transparent outline-none ring-0 focus-within:focus-visible:focus:border-none focus-within:focus-visible:focus:outline-none focus-within:focus-visible:focus:ring-0"
+                className="border-0 bg-transparent outline-none ring-0 focus-within:focus-visible:focus:border-none focus-within:focus-visible:focus:outline-none focus-within:focus-visible:focus:ring-0 "
                 placeholder="Enter Your E-mail"
               ></Input>
               <Image
@@ -56,7 +56,7 @@ function Footer() {
           <div className="flex w-[15rem] flex-col gap-1.5">
             <h1 className="h3-semibold">Download APP</h1>
             <p>Save &euro;3 with App</p>
-            <div className="grid-apps grid h-[6rem]">
+            <div className="grid-apps grid h-[6rem] cursor-pointer">
               <Image
                 src={"/assets/qr-code-svgrepo-com.svg"}
                 width={90}
