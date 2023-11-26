@@ -57,7 +57,7 @@ const config: Config = {
         frame3: "url('/assets/Frame 887.png')",
       },
       screens: {
-        xs: "420px",
+        smd: "820px",
       },
       keyframes: {
         // "accordion-down": {

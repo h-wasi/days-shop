@@ -7,15 +7,18 @@ function Footer() {
   return (
     <>
       <div className="grid-footer bg-dark-300 py-20 font-poppins text-slate-50">
-        <section className="flex justify-around">
-          <div className="flex flex-col justify-between gap-6">
-            <Link href={"/"} className="logo h2-bold font-inter">
+        <section className="flex justify-around max-smd:flex-col max-smd:gap-10 max-smd:px-10">
+          <div className="flex flex-col justify-between gap-6 max-smd:self-center">
+            <Link
+              href={"/"}
+              className="logo h2-bold max-smd:h1-bold font-inter"
+            >
               <span className="text-secondary-500">Days</span>
-              <span className="">Shop</span>
+              <span>Shop</span>
             </Link>
             <h2 className="h3-bold">Subscribe</h2>
             <p>Get off 10&#37; your first order</p>
-            <div className="bg-transparen flex w-[13.5rem] rounded-md border border-light-500 px-4">
+            <div className="bg-transparen flex w-[13.5rem] rounded-md border border-light-500 px-4 max-smd:w-full">
               <Input
                 className="border-0 bg-transparent outline-none ring-0 focus-within:focus-visible:focus:border-none focus-within:focus-visible:focus:outline-none focus-within:focus-visible:focus:ring-0 "
                 placeholder="Enter Your E-mail"
@@ -31,14 +34,11 @@ function Footer() {
           </div>
           <div className="flex flex-col gap-3">
             <h1 className="h3-semibold">Support</h1>
-            <p>
-              111 Bijay sarami,Las Angeles,
-              <br /> LA 1515,U.S.A
-            </p>
+            <p>111 Bijay sarami,Las Angeles, LA 1515,U.S.A</p>
             <p>daysshop@example.com</p>
             <p>+88015-88888-9999</p>
           </div>
-          <div className="flex flex-col gap-1.5">
+          <div className="flex flex-col gap-1.5 max-smd:hidden">
             <h1 className="h3-semibold">Account</h1>
             <p>My Account</p>
             <p>Login &#x2F; Register</p>
@@ -53,7 +53,7 @@ function Footer() {
             <p>FAQ</p>
             <p>Contact</p>
           </div>
-          <div className="flex w-[15rem] flex-col gap-1.5">
+          <div className="flex w-[15rem] flex-col gap-1.5 max-smd:hidden">
             <h1 className="h3-semibold">Download APP</h1>
             <p>Save &euro;3 with App</p>
             <div className="grid-apps grid h-[6rem] cursor-pointer">
@@ -119,18 +119,20 @@ function Footer() {
             </div>
           </div>
         </section>
-        <div className="flex justify-center">
+        <div className="flex justify-center gap-2">
           <p className="mt-16 flex w-max justify-center rounded-3xl border border-emerald-200 bg-slate-900/70 px-6 py-4">
-            Made with
-            <Image
-              src={"/assets/love.svg"}
-              width={25}
-              height={25}
-              alt="love"
-              className="mx-2"
-            ></Image>
-            by
-            <span className="ml-2 flex gap-4 text-emerald-300">
+            <span className="flex max-smd:hidden">
+              Made with
+              <Image
+                src={"/assets/love.svg"}
+                width={25}
+                height={2}
+                alt="love"
+                className="mx-2"
+              ></Image>
+              by
+            </span>
+            <span className="flex gap-4 text-emerald-300">
               <Link href={"https://github.com/h-wasi"}>1: Wasi</Link>
               <Link href={"https://github.com/Mohsin-mw"}>2: Mohsin</Link>
               <Link href={"https://github.com/Ishtiaq-Ahmed101"}>

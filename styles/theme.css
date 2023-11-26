@@ -163,7 +163,7 @@
 }
 .grid-container {
   display: grid;
-  grid-template-rows: 76px 1fr 27.5rem;
+  grid-template-rows: 76px 1fr minmax(27.5rem, auto);
   grid-template-areas:
     "Navbar"
     "main"
@@ -178,6 +178,20 @@
 .grid-nav {
   grid-area: Navbar;
 }
+/* .grid-nav-menu {
+  grid-area: menu;
+}
+.grid-nav-smd {
+  display: grid;
+  grid-template-columns: 2.5rem;
+  grid-template-rows: repeat(8, 1rem);
+  grid-template-areas: "logo . . . . menu .";
+}
+
+.grid-nav-logo {
+  grid-area: logo;
+} */
+
 .google {
   grid-area: google;
 }
